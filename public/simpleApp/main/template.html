@@ -1,0 +1,9 @@
+<button ng-click="postTimestamp()">Set Timestamp</button>
+<button ng-click="reloadTimestamps()">Reload Timestamps</button>
+<button ng-click="clearTimestamps()">Clear Timestamps</button>
+<div ng-show="items.length == 0"><h2>No timestamps to show</h2></div>
+<div ng-show="items.length > 0">
+	<ul>
+		<li ng-repeat="item in items track by $index">{{item}}</li>
+	</ul>
+</div>

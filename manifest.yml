@@ -1,0 +1,4 @@
+applications:
+- name: Kitura-AngularJS1
+  memory: 512M
+  instances: 1
