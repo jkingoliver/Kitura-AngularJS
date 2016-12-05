@@ -48,7 +48,6 @@ router.delete("/timestamps") {
     next()
 }
 
-
 //
 // Read environment variables and look for port we should listen on
 //
