@@ -1,9 +1,6 @@
 import Foundation
 import Kitura
-import HeliumLogger
 import SwiftyJSON
-
-HeliumLogger.use()
 
 let router = Router()
 
