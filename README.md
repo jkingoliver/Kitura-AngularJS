@@ -9,12 +9,12 @@
 <ul>
 <li>Install <a href="https://developer.apple.com/download/" target="_blank">Xcode 8</a> from Apple</li>
 <li>Clone the repository</li>
-<code><pre>$ git clone https://github.com/jkingoliver/Kitura-AngularJS.git</pre></code>
+<pre>$ git clone https://github.com/jkingoliver/Kitura-AngularJS.git</pre>
 <li>Build the application</li>
-<code><pre>$ cd Kitura-AngularJS
-$ swift build</pre></code>
+<pre>$ cd Kitura-AngularJS
+$ swift build</pre>
 <li>Run the built executable</li>
-<code><pre>$ ./build/debug/Kitura-AngularJS</pre></code>
+<pre>$ ./build/debug/Kitura-AngularJS</pre>
 <li>Open a browser pointing at http://localhost:8090</li>
 </ul>
 
